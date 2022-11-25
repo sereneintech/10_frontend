@@ -1,0 +1,34 @@
+header {
+    background-color: #0b2faf;
+    color: white;
+    height: 10em;
+}
+
+#logo {
+    height: 9em;
+    margin-left: 1em;
+}
+
+#navbar {
+    float: right;
+    margin-right: 1em;
+    font-size: 30px;
+}
+
+li {
+    display: inline;
+    
+}
+
+body{
+    margin-left: left;
+}
+
+
+#main{
+    background-image: url("images/immersiva-virtual-reality.gif");
+    padding-bottom: 50em;
+    background-repeat: no-repeat;
+    background-size: 210em 105em;
+
+}

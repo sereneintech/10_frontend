@@ -1,0 +1,177 @@
+header {
+    background-color: #0b2faf;
+    color: white;
+    height: 10em;
+    line-height: 5cm;
+}
+
+#logo {
+    height: 9em;
+    margin-left: 1em;
+}
+
+#navbar {
+    float: right;
+    margin-right: 1em;
+    font-size: 30px;
+}
+
+li {
+    display: inline;
+    
+}
+
+body{
+    margin-left: left;
+    background-color: rgb(5, 5, 66);
+    color: aliceblue;
+}
+
+
+#main{
+    background-image: url("images/immersiva-virtual-reality.gif");
+    padding-bottom: 50em;
+    background-repeat: no-repeat;
+    background-size: 210em 105em;
+}
+
+#test{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.left-nav {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.left-nav nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.left-nav nav ul li {
+    text-transform: uppercase;
+    padding-left: 24px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+}
+
+.left-nav nav ul li:hover {
+    color: #008248;
+}
+
+.right-nav {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    align-items: center;
+}
+
+.find-store {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.find-store i {
+    padding-right: 8px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.find-store:hover {
+    color: #008248;
+}
+
+.sign-in, .join-now {
+    padding: 7px 16px;
+    border: 1px solid;
+    border-radius: 50px;
+    font-weight: 600;
+    line-height: 1.2;
+    cursor: pointer;
+}
+
+.sign-in {
+    margin-right: 16px;
+}
+
+.sign-in:hover {
+    background-color: rgba(0,0,0,.06);
+    transition: all .2s ease;
+}
+
+.join-now {
+    background-color: black;
+    color: white;
+    transition: all .2s ease;
+}
+
+.join-now:hover {
+    background-color: rgba(0,0,0,.7);
+    border-color: rgba(0,0,0,.7);
+} 
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    display: inline-block;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  section {
+    text-align: center;
+  }
+  
+  .main{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+.inner{
+    width: 500px;
+    height: 500px;
+}
+.row{
+    width: 800px;
+    height: 100px;
+}
+.img_src{
+    float: left;
+    width: 250px;
+    height: 100px;
+}
+
